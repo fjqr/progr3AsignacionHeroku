@@ -17,7 +17,7 @@ from django.conf.urls import url
 from django.contrib import admin
 from django.conf.urls import url, include
 from django.urls.conf import path
-from django.config.urls.static import static
+from django.conf.urls.static import static
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('apiapp/',include('apiapp.urls'))
